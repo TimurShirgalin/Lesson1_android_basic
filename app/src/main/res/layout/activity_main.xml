@@ -3,7 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,7 +13,6 @@
         android:text="Hello World!"
         android:textColor="@color/black"
         android:textSize="40sp" />
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,7 +20,6 @@
         android:layout_marginTop="@dimen/margin_top"
         android:layout_marginEnd="@dimen/margin_right"
         android:textColor="@color/purple_500" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,26 +27,22 @@
         android:layout_marginTop="@dimen/margin_top"
         android:backgroundTint="@color/black"
         android:drawableEnd="@mipmap/ic_launcher_round"
-        android:text="Кнопка"
+        android:text="@string/button_text"
         android:textAllCaps="false" />
-
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_marginStart="@dimen/margin_left"
         android:layout_marginTop="@dimen/margin_top"
         android:thumbTint="#003FDF"
         android:trackTint="#FF0303" />
-
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_left"
         android:layout_marginTop="@dimen/margin_top"
         android:checked="false"
-        android:text="Поставь галочку!" />
-
+        android:text="@string/checkBox_text" />
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -57,8 +50,6 @@
         android:layout_marginTop="@dimen/margin_top"
         android:checked="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textOff="Нажми меня!"
-        android:textOn="Спасибо:)" />
-
-
+        android:textOff="@string/togglebttn_textOff"
+        android:textOn="@string/togglebttn_textOn" />
 </LinearLayout>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Lesson1</string>
+    <string name="button_text">Кнопка</string>
+    <string name="checkBox_text">Поставь галочку!</string>
+    <string name="togglebttn_textOff">Нажми меня!</string>
+    <string name="togglebttn_textOn">Спасибо:)</string>
 </resources>
